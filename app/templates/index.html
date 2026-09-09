@@ -22,11 +22,11 @@
             border-radius:25px;
         }
         .mic{
-            width:90px;
-            height:90px;
+            width:120px;
+            height:120px;
             border:0;
-            border-radius:50%
-            font-size:35px;
+            border-radius:50%;
+            font-size:50px;
             cursor:pointer;
         }
         .status{
@@ -61,6 +61,20 @@
         </div>
         <div id="song" class="song"></div>
     </div>
+    <script>
+
+        const mic=document.getElementById("mic");
+        const status=document.getElementById("status");
+        const song=document.getElementById("song");
+
+        const SpeechRecognition=
+            window.SpeechRecognition ||
+            window.webkitSpeechRecognition;
+
+        let youtubeTab=null;
+        let listening=false;
+        
+    </script>
     
 </body>
 
