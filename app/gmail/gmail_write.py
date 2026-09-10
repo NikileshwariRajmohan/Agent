@@ -31,7 +31,7 @@ def create_gmail_url(subjects="", body="", recipient=""):
      "views": "cm",
      "fs": "1",
      "to": recipient,
-     "su": subject,
+     "su": subjects,
      "body" : body
   })
   return f"https://mail.google.com/mail/u/0/?{params}"
