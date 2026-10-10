@@ -1,8 +1,8 @@
 # Agentic AI 
 
-# Nova AI 🎙️
+# Nira AI 🎙️
 
-Nova AI is a voice-controlled AI web application that allows users to interact with different services using simple voice commands.
+Nira AI is a voice-controlled AI web application that allows users to interact with different services using simple voice commands.
 
 The application can understand voice commands, generate emails using AI, open the generated email in Gmail, and search and play songs through YouTube.
 
@@ -20,7 +20,7 @@ The application can understand voice commands, generate emails using AI, open th
 
 ## 🎤 Voice Commands
 
-Nova AI supports different types of voice commands.
+Nira AI supports different types of voice commands.
 
 ### 📧 Email Commands
 
@@ -36,7 +36,7 @@ Another example:
 Create email for my boss
 ```
 
-When Nova AI detects an email command, it generates:
+When Nira AI detects an email command, it generates:
 
 ```text
 Recipient
@@ -70,7 +70,7 @@ Song Believer
 
 Nova AI detects the YouTube command, searches for the requested song, and opens the result in YouTube.
 
-## 🔄 How Nova AI Works
+## 🔄 How Nira AI Works
 
 ```text
 User Voice Command
@@ -158,7 +158,7 @@ Song plays
 ## 📁 Project Structure
 
 ```text
-Nova AI/
+Nira AI/
 │
 ├── app/
 │   ├── gmail.py
@@ -236,11 +236,11 @@ For example:
 http://127.0.0.1:5000
 ```
 
-## 📱 Using Nova AI
+## 📱 Using Nira AI
 
 ### Step 1
 
-Open Nova AI in your browser.
+Open Nira AI in your browser.
 
 ### Step 2
 
@@ -262,7 +262,7 @@ Create an email for my manager
 
 ### Step 5
 
-Nova AI generates the email.
+Nira AI generates the email.
 
 ### Step 6
 
@@ -290,7 +290,7 @@ For YouTube, say:
 Play Believer
 ```
 
-and Nova AI opens the requested song.
+and Nira AI opens the requested song.
 
 ## 🌐 Browser Support
 
@@ -319,7 +319,7 @@ Speech recognition unavailable
 
 ### Gmail
 
-Nova AI identifies an email command when the command contains both:
+Nira AI identifies an email command when the command contains both:
 
 ```text
 create
@@ -340,7 +340,7 @@ Create email for my manager
 
 ### YouTube
 
-Nova AI identifies a YouTube command when the command contains:
+Nira AI identifies a YouTube command when the command contains:
 
 ```text
 play
@@ -376,7 +376,7 @@ The following features can be added in future versions:
 
 ## 🎯 Project Objective
 
-The main objective of Nova AI is to create a simple voice-controlled AI assistant that reduces the need for manual interaction with commonly used services.
+The main objective of Nira AI is to create a simple voice-controlled AI assistant that reduces the need for manual interaction with commonly used services.
 
 Instead of typing commands manually, users can use their voice to perform tasks such as generating emails and playing songs.
 
